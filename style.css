@@ -40,12 +40,12 @@ ul {
 }
 .container {
   width: 700px;        /* Set the width */
-  margin: 50px auto;
+  margin: 20px auto;
 }
 
 .card {
   background-color: white;
-  padding: 40px 60px;
+  padding: 20px 30px;
   border-radius: 8px;
   box-shadow: 0 5px 10px rgba(0,0,0,.3);
  /* margin: 20px;*/
@@ -114,5 +114,8 @@ li {
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
+  }
+  .img-circle {
+    width: 200px;
   }
 }
